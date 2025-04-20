@@ -1,4 +1,4 @@
-ef calculate_discount(price, discount_percent):
+def calculate_discount(price, discount_percent):
     """
     Calculates the final price after applying a discount.
     Applies the discount only if it's 20% or higher.
