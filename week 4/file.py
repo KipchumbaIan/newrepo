@@ -24,7 +24,7 @@ def process_file():
     except PermissionError:
         print("❌ Error: You don't have permission to read or write to the file.")
     except Exception as e:
-        print(f"❌ An unexpected error occurred: {e}")
+        print(f"❌ An unexpected error occurred try again: {e}")
 
 # Run the function
 process_file()
